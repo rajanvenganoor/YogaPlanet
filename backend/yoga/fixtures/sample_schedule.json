@@ -1,0 +1,22 @@
+[
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Morning Yoga Class",
+      "category": "Schedule",
+      "description": "A gentle class starting at 6 AM.",
+      "benefits": "Improves flexibility and prepares body for the day.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Evening Yoga Class",
+      "category": "Schedule",
+      "description": "Relaxing class focused on grounding and slow flow.",
+      "benefits": "Releases tension and calms mind.",
+      "image": ""
+    }
+  }
+]

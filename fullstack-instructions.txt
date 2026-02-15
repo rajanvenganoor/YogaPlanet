@@ -1,0 +1,1 @@
+Run backend and frontend separately as described in README.md

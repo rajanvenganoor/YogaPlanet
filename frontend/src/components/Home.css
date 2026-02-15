@@ -1,0 +1,41 @@
+
+/* BIG AD SECTION */
+.ad-section {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: #fff3e0;
+}
+
+.big-ad-image {
+  width: 90%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.ad-text {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #bf360c;
+}
+
+@keyframes colorChange {
+  0% { color: #ff4d4d; }
+  20% { color: #ff9900; }
+  40% { color: #33cc33; }
+  60% { color: #3399ff; }
+  80% { color: #cc66ff; }
+  100% { color: #ff4d4d;}
+}
+.welcome-text h2 {
+  animation: colorChange 4s infinite;
+  text-align: center;
+}
+
+.welcome-text p {
+  animation: colorChange 6s infinite;
+  text-align: center;
+}

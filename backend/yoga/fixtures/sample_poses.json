@@ -1,0 +1,35 @@
+[
+  {
+    "model": "yoga.yogapose",
+    "pk": 1,
+    "fields": {
+      "name": "Tadasana",
+      "category": "Standing",
+      "description": "Mountain Pose promotes balance and alignment.",
+      "benefits": "Improves posture, strengthens thighs and core.",
+      "image": "https://example.com/images/tadasana.jpg"
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "pk": 2,
+    "fields": {
+      "name": "Bhujangasana",
+      "category": "Backbend",
+      "description": "Cobra Pose stretches chest and spine.",
+      "benefits": "Strengthens spine, opens lungs, relieves stress.",
+      "image": "https://example.com/images/bhujangasana.jpg"
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "pk": 3,
+    "fields": {
+      "name": "Vrikshasana",
+      "category": "Balance",
+      "description": "Tree Pose encourages stability and focus.",
+      "benefits": "Enhances concentration, strengthens legs and core.",
+      "image": "https://example.com/images/vrikshasana.jpg"
+    }
+  }
+]

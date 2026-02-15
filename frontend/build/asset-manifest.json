@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.64303e7b.css",
+    "main.js": "/static/js/main.d277151e.js",
+    "static/media/rajan.jpg": "/static/media/rajan.c24d594ab3ff6d195706.jpg",
+    "static/media/om.mp3": "/static/media/om.02d202d1ec40ac0bb13a.mp3",
+    "index.html": "/index.html",
+    "main.64303e7b.css.map": "/static/css/main.64303e7b.css.map",
+    "main.d277151e.js.map": "/static/js/main.d277151e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64303e7b.css",
+    "static/js/main.d277151e.js"
+  ]
+}

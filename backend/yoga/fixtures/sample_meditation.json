@@ -1,0 +1,32 @@
+[
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Mindfulness Meditation",
+      "category": "Meditation",
+      "description": "Awareness of breath and present moment.",
+      "benefits": "Reduces stress and increases clarity.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Mantra Meditation",
+      "category": "Meditation",
+      "description": "Repetition of a sacred sound to focus the mind.",
+      "benefits": "Improves concentration and peace.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Loving Kindness Meditation",
+      "category": "Meditation",
+      "description": "Cultivates compassion towards self and others.",
+      "benefits": "Reduces negative emotions.",
+      "image": ""
+    }
+  }
+]

@@ -1,0 +1,52 @@
+/* =========================
+   Pose layout – FINAL FIX
+   ========================= */
+.combo-50 {
+  width: 50ch;      /* 🔥 50 character width */
+  max-width: 100%;
+}
+
+/* Container */
+.pose-container {
+  width: 100%;
+}
+
+/* Card */
+.pose-card {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* 🔥 Image + text SIDE BY SIDE (FORCED) */
+.pose-content {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 24px;
+  width: 100%;
+}
+
+/* Image rules */
+.pose-content img {
+  display: block !important;
+  width: 280px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Right-side text */
+.pose-text {
+  flex: 1;
+  text-align: left;
+}
+
+/* Paragraph cleanup */
+.pose-text p {
+  margin: 0 0 12px 0;
+  line-height: 1.6;
+}

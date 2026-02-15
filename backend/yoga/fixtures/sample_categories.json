@@ -1,0 +1,62 @@
+[
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Standing Poses",
+      "category": "Category",
+      "description": "A collection of standing asanas that develop balance, grounding, and strength.",
+      "benefits": "Improves balance, stability, and overall alignment.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Forward Bends",
+      "category": "Category",
+      "description": "Asanas that stretch the posterior chain and calm the mind.",
+      "benefits": "Reduces stress, lengthens spine, improves digestion.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Backbends",
+      "category": "Category",
+      "description": "Heart-opening poses that strengthen the spine.",
+      "benefits": "Improves spinal mobility and boosts energy.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Twists",
+      "category": "Category",
+      "description": "Rotational poses that detoxify organs.",
+      "benefits": "Improves digestion and spinal flexibility.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Balance Poses",
+      "category": "Category",
+      "description": "Poses that enhance focus and stability.",
+      "benefits": "Strengthens legs and improves concentration.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Restorative Poses",
+      "category": "Category",
+      "description": "Relaxing poses supported with props.",
+      "benefits": "Calms the nervous system and restores energy.",
+      "image": ""
+    }
+  }
+]

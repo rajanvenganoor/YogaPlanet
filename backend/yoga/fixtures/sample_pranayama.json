@@ -1,0 +1,72 @@
+[
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Anulom Vilom",
+      "category": "Pranayama",
+      "description": "Alternate nostril breathing to balance Ida and Pingala nadis.",
+      "benefits": "Reduces stress, balances mind, improves lung function.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Kapalbhati",
+      "category": "Pranayama",
+      "description": "Forceful exhalation and passive inhalation.",
+      "benefits": "Detoxifies lungs, improves digestion.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Bhastrika",
+      "category": "Pranayama",
+      "description": "Rapid inhalation and exhalation like a bellows.",
+      "benefits": "Boosts energy and clear sinuses.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Bhramari",
+      "category": "Pranayama",
+      "description": "Humming bee breath.",
+      "benefits": "Reduces anxiety and improves focus.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Sheetkari",
+      "category": "Pranayama",
+      "description": "Cooling pranayama done through teeth.",
+      "benefits": "Reduces body heat.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Sheetali",
+      "category": "Pranayama",
+      "description": "Cooling breath performed through a rolled tongue.",
+      "benefits": "Decreases anger, heat, and anxiety.",
+      "image": ""
+    }
+  },
+  {
+    "model": "yoga.yogapose",
+    "fields": {
+      "name": "Ujjayi",
+      "category": "Pranayama",
+      "description": "Victorious breath performed by gentle glottis constriction.",
+      "benefits": "Calms mind, enhances oxygen intake.",
+      "image": ""
+    }
+  }
+]

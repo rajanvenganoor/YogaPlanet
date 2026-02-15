@@ -10,13 +10,14 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # DEBUG = True
 # When deploying:
 # DEBUG=False
-
-DEBUG = os.environ.get("DEBUG", "False") == "True"
+DEBUG = False
+#DEBUG = os.environ.get("DEBUG", "False") == "True"
 
 #ALLOWED_HOSTS = [".onrender.com", "localhost", "127.0.0.1"]
 
-ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['*']
 
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")

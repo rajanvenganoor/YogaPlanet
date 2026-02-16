@@ -51,6 +51,14 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'YogaPlanet.urls'
+PROJECT_ROOT = BASE_DIR.parent
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(PROJECT_ROOT, 'frontend', 'build', 'static'),
+]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 TEMPLATES = [
     {
@@ -102,7 +110,18 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-STATIC_URL = '/static/'
+
+# Static and media files settings
+
+#STATIC_URL = '/static/'
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, 'frontend/build/static'),
+#]
+
+TEMPLATES[0]['DIRS'] = [
+    os.path.join(BASE_DIR, 'frontend/build'),
+]
+#Static and media files settings
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
